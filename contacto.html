@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contacto y pruebas del incidente digital que afectó a la empresa." />
+  <title>Resurrección Digital | Contacto y Pruebas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/script.js"></script>
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="brand">
+      <a href="index.html">
+        <span class="brand-mark">RD</span>
+        <div>
+          <strong>Resurrección Digital</strong>
+          <small>Volvimos más fuertes</small>
+        </div>
+      </a>
+    </div>
+
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+    <nav id="main-nav" class="main-nav" aria-label="Principal">
+      <a href="index.html">Historia</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html" class="active">Contacto</a>
+      <button id="theme-toggle" class="ghost-btn" type="button">Modo oscuro</button>
+    </nav>
+  </header>
+
+  <main class="container page-section contact-layout">
+    <section>
+      <div class="section-heading">
+        <p class="eyebrow">Contacto con pruebas del incidente</p>
+        <h1>Estamos de vuelta. Esta vez con evidencia.</h1>
+        <p class="lead">
+          Transparencia total: mostramos lo ocurrido, cómo respondimos y cómo pueden volver a encontrarnos.
+        </p>
+      </div>
+
+      <div class="evidence-grid">
+        <article class="evidence-card">
+          <span class="chip">USB</span>
+          <h2>Mensaje recuperado</h2>
+          <p>
+            “Tu negocio ha sido borrado de la existencia digital. Si quieres recuperarlo, deberás reinventarlo.”
+          </p>
+        </article>
+
+        <article class="evidence-card">
+          <span class="chip">LOG</span>
+          <h2>Registro del fallo</h2>
+          <p>Caída total de servicios, desaparición de perfiles sociales y pérdida de visibilidad en buscadores.</p>
+        </article>
+
+        <article class="evidence-card">
+          <span class="chip">FIX</span>
+          <h2>Plan de recuperación</h2>
+          <p>Rediseño completo, narrativa de marca, respaldo de información y nuevo canal de atención al cliente.</p>
+        </article>
+      </div>
+
+      <form class="contact-form">
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" placeholder="Tu nombre" />
+        </div>
+
+        <div class="field">
+          <label for="email">Correo</label>
+          <input id="email" name="email" type="email" placeholder="tunombre@correo.com" />
+        </div>
+
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" placeholder="Quiero saber más sobre la nueva empresa..."></textarea>
+        </div>
+
+        <button type="submit" class="primary-btn">Enviar señal</button>
+      </form>
+    </section>
+
+    <aside class="contact-aside">
+      <div class="map-card">
+        <h2>Ubicación</h2>
+        <iframe
+          title="Mapa de ubicación"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17999.39902392881!2d-69.89744879687159!3d18.487847343387166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89ca11b68e21%3A0xd7c91d24f996854c!2sSambil%20Santo%20Domingo!5e0!3m2!1ses!2sdo!4v1773506710775!5m2!1ses!2sdo"></iframe>
+      </div>
+
+  <section class="geo-section">
+    <h2>Detección de Hackers</h2>
+    <p>
+        Tras el incidente digital, nuestro sistema fue reconstruido y con una nueva capa de seguridad para detectar al o los hackers que nos hicieron el daño.
+    </p>
+
+    <button id="geoButton" class="geo-btn">
+        Iniciar rastreo de ubicación
+    </button>
+
+    <div id="geoStatus" class="geo-status">
+        Esperando activación del sistema...
+    </div>
+
+    <div id="ubicacionUsuario" class="geo-result hidden">
+        Ubicación no detectada.
+    </div>
+</section>
+
+      <div class="proof-console">
+        <h2>Consola de recuperación</h2>
+        <pre>
+> scan --presence
+Website.......... restored
+Identity......... redesigned
+Clients.......... reconnecting
+Protection....... enabled
+        </pre>
+      </div>
+    </aside>
+  </main>
+
+  <div id="chatbot" class="chatbot" aria-label="Asistente virtual">
+    <button id="chatbot-toggle" class="chatbot-toggle" aria-expanded="false">Asistente IA</button>
+    <div class="chatbot-panel" hidden>
+      <div class="chatbot-header">
+        <strong>Nova</strong>
+        <small>Guía de contacto</small>
+      </div>
+      <div id="chatbot-messages" class="chatbot-messages">
+        <div class="bot-msg">Si necesitas ayuda, puedo indicarte cómo contactar a la empresa o entender las pruebas del incidente.</div>
+      </div>
+      <form id="chatbot-form" class="chatbot-form">
+        <input id="chatbot-input" type="text" placeholder="Escribe: mapa, contacto, incidente..." autocomplete="off" />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>La confianza también se reconstruye con pruebas.</p>
+  </footer>
+</body>
+</html>

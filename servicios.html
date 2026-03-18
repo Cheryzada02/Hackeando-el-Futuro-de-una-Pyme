@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Servicios reinventados para reconstruir y proteger una empresa en la era digital." />
+  <title>Resurrección Digital | Servicios Reinventados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/script.js"></script>
+</head>
+<body data-page="services">
+  <header class="site-header">
+    <div class="brand">
+      <a href="index.html">
+        <span class="brand-mark">RD</span>
+        <div>
+          <strong>Resurrección Digital</strong>
+          <small>Volvimos más fuertes</small>
+        </div>
+      </a>
+    </div>
+
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+    <nav id="main-nav" class="main-nav" aria-label="Principal">
+      <a href="index.html">Historia</a>
+      <a href="servicios.html" class="active">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <button id="theme-toggle" class="ghost-btn" type="button">Modo oscuro</button>
+    </nav>
+  </header>
+
+  <main class="container page-section">
+    <div class="section-heading">
+      <p class="eyebrow">Servicios reinventados</p>
+      <h1>Lo que ofrece la empresa en su nueva versión</h1>
+      <p class="lead">
+        Ya no se trata solo de vender. Ahora la marca ofrece seguridad, automatización, cercanía y una experiencia que
+        inspira confianza.
+      </p>
+    </div>
+
+    <section class="services-grid">
+      <article class="service-card">
+        <div class="service-icon">01</div>
+        <h2>Identidad visual blindada</h2>
+        <p>Manual de marca, paleta vibrante, tono narrativo y piezas coherentes para web y redes sociales.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">02</div>
+        <h2>Atención inteligente</h2>
+        <p>Asistente virtual para responder preguntas frecuentes y guiar a los clientes sin fricción.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">03</div>
+        <h2>Web resiliente</h2>
+        <p>Diseño responsive, respaldos periódicos, arquitectura clara y monitoreo del estado del sistema.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">04</div>
+        <h2>Experiencia interactiva</h2>
+        <p>Animaciones, storytelling y elementos ocultos que convierten la visita en una experiencia memorable.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">05</div>
+        <h2>Ubicación y confianza</h2>
+        <p>Mapa integrado, formulario de contacto y pruebas del incidente para reforzar transparencia.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">06</div>
+        <h2>Modo oscuro y accesibilidad</h2>
+        <p>Una interfaz adaptable que mejora la lectura y eleva la experiencia en distintos contextos de uso.</p>
+      </article>
+    </section>
+
+    <section class="resilience-box">
+      <div>
+        <p class="eyebrow">Más fuerte ante futuros ataques</p>
+        <h2>Medidas clave de protección</h2>
+      </div>
+      <ul class="shield-list">
+        <li>Respaldos automáticos y copias fuera del servidor principal.</li>
+        <li>Autenticación fuerte para el panel administrativo.</li>
+        <li>Monitoreo de disponibilidad y alertas tempranas.</li>
+        <li>Plan de recuperación y mensajes de contingencia claros.</li>
+      </ul>
+    </section>
+
+    <section class="quote-box">
+      <h2>Nuevo mensaje comercial</h2>
+      <p>
+        “No solo recuperamos un negocio. Activamos una marca preparada para resistir, conectar y crecer en cualquier
+        entorno digital.”
+      </p>
+    </section>
+  </main>
+
+  <div id="chatbot" class="chatbot" aria-label="Asistente virtual">
+    <button id="chatbot-toggle" class="chatbot-toggle" aria-expanded="false">Asistente IA</button>
+    <div class="chatbot-panel" hidden>
+      <div class="chatbot-header">
+        <strong>Nova</strong>
+        <small>Guía de servicios</small>
+      </div>
+      <div id="chatbot-messages" class="chatbot-messages">
+        <div class="bot-msg">Pregúntame por seguridad, identidad, ubicación o contacto.</div>
+      </div>
+      <form id="chatbot-form" class="chatbot-form">
+        <input id="chatbot-input" type="text" placeholder="Ejemplo: seguridad" autocomplete="off" />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Diseñado para renacer, crecer y resistir.</p>
+  </footer>
+</body>
+</html>
